@@ -100,7 +100,7 @@ const FiltersNavigator = createStackNavigator(
 const MealsFavTabNavigator =
   Platform.OS === "android"
     ? createMaterialBottomTabNavigator(tabScreenConfig, {
-        activeTintColor: "white",
+        // activeTintColor: "white",
         shifting: true
       })
     : createBottomTabNavigator(tabScreenConfig, {
